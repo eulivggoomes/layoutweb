@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contato - Lívia Dev</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Fale Comigo</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="blog.html">Blog</a>
+      <a href="midia.html">Mídia</a>
+      <a href="agenda.html">Agenda</a>
+      <a href="formulario.html">Contato</a>
+      <a href="contato.html">Redes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Envie uma mensagem</h2>
+      <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required><br><br>
+
+        <label for="tipo">Tipo de mensagem:</label><br>
+        <select id="tipo" name="tipo">
+          <option value="duvida">Dúvida</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="elogio">Elogio</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="40" placeholder="Digite aqui sua mensagem..." required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lívia • Pronta para ouvir você!</p>
+  </footer>
+</body>
+</html>
